@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/acidonper/jump-app-functional-tests#readme",
   "devDependencies": {
-    "cypress": "^6.3.0"
-  }
+    "cypress": "^6.3.0",
+    "cypress-dotenv": "^1.2.2",
+    "dotenv": "^8.2.0"
+  },
+  "dependencies": {}
 }

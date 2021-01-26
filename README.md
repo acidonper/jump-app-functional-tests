@@ -13,13 +13,16 @@ npm install cypress --save-dev
 ## Interactive mode
 
 ```$bash
-./node_modules/.bin/cypress open
+./node_modules/.bin/cypress open --env jump_app_url=https://front-javascript-jump-app-dev.apps.acidonpe.sandbox1736.opentlc.com
+cypress_jump_app_url=https://front-javascript-jump-app-dev.apps.acidonpe.sandbox1736.opentlc.com ./node_modules/.bin/cypress open
 ```
 
 ## Execute Tests
 
 ```$bash
-./node_modules/.bin/cypress run
+./node_modules/.bin/cypress run --env jump_app_url=https://front-javascript-jump-app-dev.apps.acidonpe.sandbox1736.opentlc.com
+cypress_jump_app_url=https://front-javascript-jump-app-dev.apps.acidonpe.sandbox1736.opentlc.com ./node_modules/.bin/cypress run
+
 ```
 
 ## Author Information
