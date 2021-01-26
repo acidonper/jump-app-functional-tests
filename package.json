@@ -1,0 +1,25 @@
+{
+  "name": "jump-app-functional-tests",
+  "version": "1.0.0",
+  "description": "Jump App Functional Tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acidonper/jump-app-functional-tests.git"
+  },
+  "keywords": [
+    "e2e"
+  ],
+  "author": "Asier Cidon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acidonper/jump-app-functional-tests/issues"
+  },
+  "homepage": "https://github.com/acidonper/jump-app-functional-tests#readme",
+  "devDependencies": {
+    "cypress": "^6.3.0"
+  }
+}
